@@ -1,0 +1,18 @@
+rules = [
+    {
+        'lhs': 'IsDefectiveScrew',
+        'rhs': ['HasRust', 'IsDeformed']
+    },
+    {
+        'lhs': 'IsDefectiveWood',
+        'rhs': ['HasCrack', 'HasKnot']
+    },
+    {
+        'lhs': 'IsDefectiveCylinder',
+        'rhs': ['IsDented', 'HasScratch']
+    },
+    {
+        'lhs': 'IsDefectiveCable',
+        'rhs': ['IsFrayed', 'HasExposedWires']
+    }
+]
